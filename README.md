@@ -1,4 +1,4 @@
-# Project Description: Smart Agriculture Transport System
+#  Smart Agriculture Transport System
 
 ## 1. Introduction
 
