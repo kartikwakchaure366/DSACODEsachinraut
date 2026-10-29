@@ -1,48 +1,18 @@
-EV Charging Station Route Finder
+## Project Description: Smart Agriculture Transport System
 
-Problem Statement
+Smart Agriculture Transport System is a C++-based application designed to connect farmers with suitable transport vehicles for carrying agricultural crops. Farmers can register their crop transportation requests by entering their name, pickup location, crop name, and quantity. Transport owners can register their vehicles by providing driver details, vehicle location, and carrying capacity.
 
-Represent electric vehicle charging stations and connecting routes with non-negative distance weights, and apply Dijkstra's algorithm to find the shortest route from a vehicle's current location to a selected charging station.
+The system uses linked lists to store farmer requests and transport vehicle details. It matches farmers with available vehicles based on pickup location and vehicle capacity. Once a vehicle is assigned, its status changes from Available to Booked.
 
-Language
+### Main Features
 
-C++
+1. Add farmer transportation requests.
+2. Register transport vehicles.
+3. Display farmer requests and vehicle details.
+4. Match farmers with suitable available vehicles.
+5. Update vehicle availability after matching.
+6. Manage data using linked lists.
 
-Algorithm
+### Objective
 
-Dijkstra's Shortest Path Algorithm
-
-Description
-
-This project represents EV charging stations as vertices and connecting roads as weighted edges in a graph. Dijkstra's algorithm calculates the shortest distance from the vehicle's current location to the selected charging station.
-
-Features
-
-- Graph representation using an adjacency list
-- Non-negative distance weights
-- Shortest route calculation
-- Minimum distance in kilometres
-- Displays the complete route
-
-Sample Output
-
-Starting point: Current Location
-
-Destination: Selected Station
-
-Shortest distance: 10 km
-
-How to Run
-
-1. Download or clone this repository.
-2. Open "ev_charging_dijkstra.cpp" in Dev-C++.
-3. Compile and run the program.
-4. View the shortest route and minimum distance.
-
-Author
-
-Student DSA Assignment
-
-License
-
-This project is intended for educational purposes.
+To simplify agricultural transportation by matching farmers' crop delivery requirements with suitable available vehicles, saving time and improving transportation management.
